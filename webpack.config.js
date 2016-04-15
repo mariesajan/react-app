@@ -1,9 +1,9 @@
 module.exports= {
   context: __dirname,
-  entry: './js/Layout.js',
+  entry: './js/layout.js',
   module: {
     loaders: [{
-      test: /\.js$/,
+      test: /\.jsx$/,
       exclude: /node_modules/,
       loader: 'babel-loader',
       query: {

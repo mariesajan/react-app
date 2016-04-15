@@ -16,7 +16,7 @@ An app to change the text of header and footer.
 3. Install dependencies
 
     ```
-    $ npm Install
+    $ npm install
     ```
 
 4. Start server
@@ -25,4 +25,4 @@ An app to change the text of header and footer.
     $ npm run dev
     ```
 
-5. Open [localhost:8080](localhost:8080)
+5. Open [http://localhost:8080](http://localhost:8080)

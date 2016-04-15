@@ -1,7 +1,7 @@
-import Footer from "./Footer";
-import Header from "./Header";
 import React from "react";
 import ReactDOM from "react-dom";
+import Footer from "./footer";
+import Header from "./header";
 
 class Layout extends React.Component{
   constructor(props){
@@ -19,10 +19,12 @@ class Layout extends React.Component{
     this.setState({footer});
   }
   render(){
-    return (<div>
-              <Header changeHeaderTitle={this.changeHeaderTitle.bind(this)}  title = {this.state.header} />
-              <Footer  changeFooterTitle={this.changeFooter.bind(this)} title= {this.state.footer} />
-            </div>)
+    return (
+        <div>
+          <Header changeHeaderTitle = {this.changeHeaderTitle.bind(this)}  title = {this.state.header} />
+          <Footer  changeFooterTitle = {this.changeFooter.bind(this)} title = {this.state.footer} />
+        </div>
+      );
   }
 }
 
