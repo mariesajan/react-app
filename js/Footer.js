@@ -4,7 +4,7 @@ import Title from "./Title";
 export default class Footer extends React.Component{
   handleFooterTitle(e){
     const footer = e.target.value;
-   this.props.changeFooterTitle(footer);
+    this.props.changeFooterTitle(footer);
   }
   render(){
     return (<div>
