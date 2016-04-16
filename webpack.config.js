@@ -1,6 +1,6 @@
 module.exports= {
-  context: __dirname + "/jsx",
-  entry: './layout.jsx',
+  context: __dirname,
+  entry: './jsx/layout.jsx',
   resolve: {
     extensions: ['', '.js', '.jsx'] // to discover  jsx files
   },
