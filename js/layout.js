@@ -7,8 +7,8 @@ class Layout extends React.Component{
   constructor(props){
     super(props);
     this.state = {
-      header : "Welcome Marie",
-      footer : "Copyright @ Marie 2016"
+      header: "Welcome Marie",
+      footer: "Copyright @ Marie 2016"
       };
   }
 
@@ -22,7 +22,7 @@ class Layout extends React.Component{
     return (
         <div>
           <Header changeHeaderTitle = {this.changeHeaderTitle.bind(this)}  title = {this.state.header} />
-          <Footer  changeFooterTitle = {this.changeFooter.bind(this)} title = {this.state.footer} />
+          <Footer  changeFooterTitle = {this.changeFooter.bind(this)}   title = {this.state.footer} />
         </div>
       );
   }

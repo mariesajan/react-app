@@ -3,11 +3,12 @@ module.exports= {
   entry: './js/layout.js',
   module: {
     loaders: [{
-      test: /\.jsx$/,
+      test: /\.js$/,
       exclude: /node_modules/,
       loader: 'babel-loader',
       query: {
-        presets: ['react', 'es2015']
+        presets: ['react', 'es2015'],
+        plugins: ['transform-class-properties'],
       }
     }]
   },

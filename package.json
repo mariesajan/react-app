@@ -1,5 +1,5 @@
 {
-  "name": "example_prop_state",
+  "name": "react-app",
   "version": "1.0.0",
   "description": "An App to change header and footer",
   "main": "webpack.config.js",
