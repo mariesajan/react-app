@@ -1,9 +1,12 @@
 module.exports= {
-  context: __dirname,
-  entry: './js/layout.js',
+  context: __dirname + "/jsx",
+  entry: './layout.jsx',
+  resolve: {
+    extensions: ['', '.js', '.jsx'] // to discover  jsx files
+  },
   module: {
     loaders: [{
-      test: /\.js$/,
+      test: /\.jsx$/,
       exclude: /node_modules/,
       loader: 'babel-loader',
       query: {
